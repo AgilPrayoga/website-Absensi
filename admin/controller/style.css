@@ -1,0 +1,140 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    
+    background-color:#434242;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    color:#F3EFE0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.wrapper-table{
+    margin-top: 10%;
+    text-align: center;
+    z-index: 1;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+.dashboard-button{
+    float: right;
+    margin-bottom: 5%;
+    z-index: 3;
+    margin-top: 5%;
+}
+.bt-dashboard-admin{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    background-color: #CE7777;
+    color: #333; 
+    cursor: pointer;
+    margin: 10px;
+     
+}
+.bt-dashboard-admin:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #9c5a5a;
+}
+
+.title h1{
+    margin: 20px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+.table th{
+    width: 30vh;
+    padding: 10px;
+    background-color: #434242;
+    border-width: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.table td{
+    padding: 10px; 
+    background-color: #222222; 
+    text-align: center;
+    border: 5px none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.table td.edit{
+    background-color:#8ab78e;
+    padding: 0;
+    
+    
+}
+.editor{
+    color: #333;
+    border: none;
+    font-size: 16px;
+    background-color: #8ab78e;
+    font-weight: bolder;
+    cursor:pointer ;
+    padding:15px;
+}
+.editor:hover{
+    background-color: #56705f;
+   
+}
+.wrapper-form{
+     
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    text-align: center;
+    margin-top: 15%;;
+    margin-bottom: 9.8%;
+    background-color: #434242;
+    margin-left: 7%;
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wrapper-form h1{
+   margin-bottom: 5px;
+    font-weight: lighter;
+
+}
+.form{
+    display: flex;
+    
+    flex-direction: column;
+    text-align: left;
+}
+.input{
+    
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    border-radius: 15px;
+}
+
+.submit2{
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color:#8ab78e;
+    color: #333;
+    cursor: pointer;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.submit2:hover{
+    background-color: #56705f;
+   
+}
+

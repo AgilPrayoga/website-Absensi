@@ -1,0 +1,70 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #EAEAEA;
+    color: #333;
+    padding: 50px;
+    margin:10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+    
+}
+.form{
+    display: flex;
+    
+    flex-direction: column;
+    text-align: left;
+}
+.wrapper h1{
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.label{
+    color:#333;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 5px;
+}
+.input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    border: none;
+    border-radius: 15px;
+}
+.edit{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: #333;
+    color: #eaeaea;
+    cursor: pointer;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.edit:hover{
+    background-color: rgb(31, 28, 28);
+}
